@@ -4,7 +4,7 @@ from paper_assistant import PaperAssistant
 def main():
     st.title("Paper Assistant Setup")
     api_key = st.secrets["api_key"]
-    file_path = "paper.pdf"
+    file_path = "Streamlit-app/paper.pdf"
 
     assistant = None
 
